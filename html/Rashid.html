@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/musicplayer.css">
+    <link rel="icon" href="./image/music.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Musicplayer</title>
+</head>
+
+<body>
+    <div class="playercontainer">
+        <div class="img-container">
+            <img src="../img/Rashid_Behbudov.jpg" alt="unsplahden gelen sekil">
+        </div>
+        <h2 id="title">Rəşid Behbudov</h2>
+        <h3 id="artist"> Küçələrə su səpmişəm</h3>
+        <audio src=""></audio>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress">
+            </div>
+            <div class="duration-wrapper">
+                <span id="current-time"> </span>
+                <span id="duration"> </span>
+            </div> <!-- duration wrapper -->
+        </div> <!-- progress-container -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="previous"></i>
+            <i class="fas fa-play main-button" id="play" title="play"></i>
+            <i class="fas fa-forward" id="next" title="next"></i>
+        </div> <!-- player-controls -->
+    </div> <!-- playercontainer -->
+    <script src="script.js"></script>
+</body>
+
+</html>
